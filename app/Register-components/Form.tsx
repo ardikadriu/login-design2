@@ -10,7 +10,7 @@ const Form = () => {
       </div>
       <form
         action=""
-        className="max-sm:w-full max-sm:flex max-sm:items-center max-sm:flex-col flex flex-col items-center"
+        className="max-sm:w-full max-sm:flex max-sm:items-center max-sm:flex-col flex flex-col items-center text-black"
       >
         {" "}
         <input
@@ -19,12 +19,12 @@ const Form = () => {
           placeholder="Enter your name"
         />
         <input
-          className="mt-[40px] w-[380px] pl-5 pt-4 pb-4 rounded-[30px] outline-0"
+          className="mt-[40px] w-[380px] pl-5 pt-4 pb-4 rounded-[30px] outline-0 "
           type="email"
           placeholder="Enter your email"
         />
         <input
-          className="mt-[40px] w-[380px] pl-5 pt-4 pb-4 rounded-[30px] outline-0"
+          className="mt-[40px] w-[380px] pl-5 pt-4 pb-4 rounded-[30px] outline-0 "
           type="password"
           placeholder="Enter your password"
         />
@@ -35,7 +35,7 @@ const Form = () => {
         />
         <button
           type="submit"
-          className="w-[378px] h-[62px] bg-[#61C2D0] text-[18px] font-bold relative z-10 max-sm:mt-[105px] mt-[105px]"
+          className="w-[378px] h-[62px] bg-[#61C2D0] text-[18px] font-bold relative z-10 max-sm:mt-[105px] mt-[105px] text-white"
         >
           {" "}
           REGISTER

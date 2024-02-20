@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="max-sm:flex max-sm:justify-center text-white max-sm:pb-[70px] mb-[70px]">
+    <div className="max-sm:flex max-sm:justify-center text-white  mb-[70px]">
       <Link href={"Register"}>
         <button className="w-[378px] h-[62px] relative z-10 bg-[#61C2D0]  text-[18px] font-bold ">
           {" "}

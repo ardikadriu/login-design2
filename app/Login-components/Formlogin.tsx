@@ -16,19 +16,19 @@ const Formlogin = () => {
           placeholder="Password "
         />
 
-        <h1 className="text-[#61C2D0] max-sm:mt-11 mt-11">Forgot Password</h1>
+        <h1 className="text-[#61C2D0] max-sm:mt-20 mt-11">Forgot Password</h1>
 
         <button
           type="submit"
-          className="w-[378px] h-[62px] bg-[#61C2D0] text-[18px] font-bold relative z-10 max-sm:mt-12 mt-12"
+          className="w-[348px] h-[62px] bg-[#61C2D0] text-[18px] font-bold relative z-10 max-sm:mt-12 mt-12 "
         >
           {" "}
           LOG IN
         </button>
-        <p className="text-[#00000080] my-[14px] relative z-10 py-2">
+        <p className="text-[#00000080] my-[14px] relative z-10 py-2 max-sm:py-2">
           Dont have an account?{" "}
           <Link href={"Register"}>
-            <span className="text-[#0DA1CF] text-[17px] ml-[11px]">
+            <span className="text-[#0DA1CF] text-[17px] ml-[11px] mt-">
               Sign up
             </span>
           </Link>
